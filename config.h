@@ -76,7 +76,7 @@ static Key keys[] = {
 	{ MODKEY,	                XK_q,      killclient,     {0} },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} }, /* tile */
 	//{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} }, /* float */
-	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} }, /* monocle */
+	{ MODKEY,                       XK_u,      setlayout,      {.v = &layouts[2]} }, /* monocle */
 	{ MODKEY,                       XK_space,  setlayout,      {0} },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
 	{ MODKEY,                       XK_f,      togglefullscr,  {0} },
